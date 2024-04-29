@@ -101,7 +101,7 @@ dialog --title "Pinecraft Installer $pcver" \
 dialog --infobox "Checking dependencies..." 3 34 ; sleep 2
 
 javaminver=8; # The minimum version of Java for Minecraft Server to run
-javamaxver=17; # The current max version available in known repositories that Minecraft Server can run on.
+javamaxver=21; # The current max version available in known repositories that Minecraft Server can run on.
 
 if [[ $updated == 0 ]]; then
   dialog --infobox "Updating repositories..." 3 34 ;
